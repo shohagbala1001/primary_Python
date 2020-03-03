@@ -1,0 +1,4 @@
+n=int(input("Enter a number: "))
+for x in range(n+1):
+    num=pow(2,x)
+    print("No. of bit =",x," and Combination= ",num)

@@ -1,0 +1,12 @@
+number=int(input("Enter a number: "))
+det_prime=0
+cycle=2
+while cycle<number:
+    if number%cycle == 0:
+        det_prime=1
+    cycle=cycle+1
+if det_prime==0:
+    print(number," is a prime number.")
+else:
+    print(number,"is not a prime number.")
+
