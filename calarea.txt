@@ -1,0 +1,13 @@
+class triangle:
+    def __init__(self,height,weidth):
+        self.height=height
+        self.width=weidth
+
+    def cal(self):
+        result=0.5*self.height*self.width
+        print("Result=",result)
+
+t1=triangle(10,20)
+t2=triangle(30,20)
+t1.cal()
+t2.cal()
